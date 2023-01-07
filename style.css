@@ -1,0 +1,159 @@
+
+
+body{
+	margin: 0;
+}
+
+
+
+
+p{-Top band}
+
+#topBand{
+	display: flex;
+	background: #191B1D;
+	height: 2rem;
+	padding: .3rem;
+	margin: 0;
+	box-shadow: black 0 .1rem;
+}
+
+#homeB{
+	background: #191B1D;
+	border: unset;
+	cursor: pointer;
+	margin: 0 2rem;
+	font-weight: bold;
+}
+
+#discoverB{
+	color: white;
+	background: #191B1D;
+	border: unset;
+	font-size: medium;
+	cursor: pointer;
+	margin: 0 2rem;
+	font-weight: bold;
+}
+#discoverB:hover{
+	box-shadow: white 0 .2rem;
+}
+
+#aShopB{
+	color: white;
+	background: #191B1D;
+	border: unset;
+	font-size: medium;
+	cursor: pointer;
+	margin: 0 3rem;
+	font-weight: bold;
+}
+#aShopB:hover{
+	box-shadow: white 0 .2rem;
+}
+
+#createB{
+	color: white;
+	background: #191B1D;
+	border: unset;
+	font-size: medium;
+	cursor: pointer;
+	margin: 0 2rem;
+	font-weight: bold;
+}
+#createB:hover{
+	box-shadow: white 0 .2rem;
+}
+
+#robuxB{
+	color: white;
+	background: #191B1D;
+	border: unset;
+	font-size: medium;
+	cursor: pointer;
+	margin: 0 2rem;
+	font-weight: bold;
+}
+#robuxB:hover{
+	box-shadow: white 0 .2rem;
+}
+
+
+#searchBar{
+	display: flex;
+	border: solid white .1rem;
+	border-radius: 10px;
+	background: black;
+	width: 30rem;
+	padding: .25rem;
+}
+
+#searchB{
+	border: unset;
+	background: black;
+	cursor: pointer;
+}
+
+#barTextArea{
+	background: black;
+	color: gray;
+	width: 30rem;
+	border: unset;
+}
+
+{-Left band}
+
+#bottomLayer{
+	display: flex;
+}
+
+{-Left band}
+
+#leftBand{
+	background: #191B1D;
+	height: 877px;
+	width: 155px;
+	padding: 10px;
+}
+
+.LBB{
+	margin: .3rem;
+	color:white;
+	background: #191B1D;
+	border: unset;
+	cursor: pointer;
+	font-size: large;
+	font-weight: bold;
+}
+.LBB:hover{
+	box-shadow: white 0 .1rem;
+}
+
+#getPremium{
+	border: unset;
+	border-radius: 7px;
+	font-size: large;
+	width: 150px;
+	height: 35px;
+	cursor: pointer;
+}
+#getPremium:hover{
+	background: gray;
+}
+
+{-Page}
+
+#page{
+	width: 1719px;
+	height: 727px;
+	padding: 85px;
+	background: #232527;
+}
+
+#hidden{
+	border: unset;
+	background: #232527;
+	cursor: pointer;
+	width: 500px;
+	height: 500px;
+}

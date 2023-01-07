@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Roblox</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="topBand">
+		
+		<button id="homeB" onclick="alert('Roblox Button')"><img src="robloxlogo.png"></button>
+
+		<button id="discoverB" onclick="alert('Discover Button')">Discover</button>
+
+		<button id="aShopB" onclick="alert('Avatar Shop Button')">Avatar Shop</button>
+
+		<button id="createB" onclick="alert('Create Button')">Create</button>
+
+		<button id="robuxB" onclick="alert('Robux Button')">Robux</button>
+
+		<div id=searchBar>
+			
+			<button id="searchB" onclick="appendTextElement()"><img src="search.png"></button>
+			<textarea id="barTextArea">Search</textarea>
+
+		</div>
+
+	</div>
+	<div id="bottomLayer">
+		
+		<div id="leftBand">
+			
+			<button class="LBB">Wolfuri</button>
+			<img src="underlline.png" style="margin: 0 0 .5rem;">
+			<button class="LBB">Home</button>
+			<br>
+			<button class="LBB">Profile</button>
+			<br>
+			<button class="LBB">Messages</button>
+			<br>
+			<button class="LBB">Friends</button>
+			<br>
+			<button class="LBB">Avatar</button>
+			<br>
+			<button class="LBB">Inventory</button>
+			<br>
+			<button class="LBB">Trade</button>
+			<br>
+			<button class="LBB">Groups</button>
+			<br>
+			<button class="LBB">Blog</button>
+			<br>
+			<button class="LBB">Official Store</button>
+			<br>
+			<button class="LBB">Gift Cards</button>
+			<br>
+			<button id="getPremium">Get Premium</button>
+			<br>
+			<br>
+			<button class="LBB">Events</button>
+
+		</div>
+		<div id="page">
+			<p style="font-weight: bold;color:white;font-size: 40px; margin:0;">
+
+				Home
+
+			</p>
+			<p style="font-weight: bold;color:white;font-size: 27px;margin:1rem 0;">
+
+				Friends (A lot)
+
+			</p>
+			<a href="notamp4.txt.mp4"><button id='hidden'></button></a>
+		</div>
+
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	
+	function appendTextElement(serv, nothing){
+		document.getElementById("barTextArea").append("")
+		alert(document.getElementById('barTextArea').textContent)
+	}
+
+</script>
+
+</html>
